@@ -3,7 +3,7 @@ layout: post
 title: Divide Two Integers
 ---
 
-```
+```python
 class Solution(object):
     def divide(self, dividend, divisor):
         """
