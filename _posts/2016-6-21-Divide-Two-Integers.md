@@ -48,13 +48,11 @@ class Solution(object):
         ans = 0
 
         while dividend >= divisor:
-            # print 'dividend:', dividend
             shift = 0
             while divisor << shift <= dividend:
                 shift += 1
             shift -= 1
             dividend -= divisor << shift
-            # print '1<<shift', 1<<shift
             ans += 1<<shift
 
             
