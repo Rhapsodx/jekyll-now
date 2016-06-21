@@ -3,7 +3,7 @@ layout: post
 title: Divide Two Integers
 ---
 
-'''
+```
 class Solution(object):
     def divide(self, dividend, divisor):
         """
@@ -52,4 +52,4 @@ class Solution(object):
             ans = -ans
             
         return ans
-  '''
+```
