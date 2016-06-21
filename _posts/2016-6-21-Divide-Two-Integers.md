@@ -12,7 +12,7 @@ If it is overflow, return MAX_INT.
 
 ### Analysis
 1. The naive solution: subtract the divior mulitple times, which will lead to TLE.
-2. An optimised solution: dividend ~ divisor * (2^n * (0|1) + 2^(n-1) * (0|1) + ...), where multiplication can be replaced with bit operator, i.e., divisor << n == divisor * 2^n.
+2. An optimised solution: $$ dividend ~ divisor * (2^n * (0|1) + 2^(n-1) * (0|1) + ...)$$, where multiplication can be replaced with bit operator, i.e., $$divisor << n == divisor * 2^n $$.
 
 
 ### Solution
