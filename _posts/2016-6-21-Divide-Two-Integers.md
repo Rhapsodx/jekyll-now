@@ -4,7 +4,7 @@ title: Divide Two Integers
 ---
 
 ### Source
-Leetcode: https://leetcode.com/problems/divide-two-integers/
+Leetcode: (https://leetcode.com/problems/divide-two-integers/)
 
 ### Description
 Divide two integers without using multiplication, division and mod operator.  
